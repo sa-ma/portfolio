@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html, html[data-theme='dark'] {
+        --color-primary: #000000;
+        --color-secondary: #ffffff;
+    }
+    html[data-theme='light'] {
+        --color-primary: #ffffff;
+        --color-secondary: #000000;
+    }
+
+    html[data-theme='mono'] {
+        --color-primary: #cccccc;
+        --color-secondary: #000000;
+    }
+}

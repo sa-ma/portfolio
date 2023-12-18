@@ -14,6 +14,11 @@ module.exports = {
             fontFamily: {
                 sans: ['var(--font-nunito-sans)'],
             },
+            colors: {
+                primary: 'var(--color-primary)',
+                secondary: 'var(--color-secondary)',
+                typography: 'var(--color-secondary)',
+            },
         },
     },
     plugins: [require('tailwindcss-animate')],
