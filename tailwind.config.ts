@@ -19,6 +19,9 @@ module.exports = {
                 secondary: 'var(--color-secondary)',
                 typography: 'var(--color-secondary)',
             },
+            transitionProperty: {
+                'width': 'width'
+            },
         },
     },
     plugins: [require('tailwindcss-animate')],

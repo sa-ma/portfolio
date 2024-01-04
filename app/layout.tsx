@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata } from 'next';
 import { Nunito_Sans } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
@@ -15,7 +15,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang='en'>
             <body className={`${nunitoSans.variable} font-sans`}>
                 <ThemeProvider defaultTheme='dark' enableSystem disableTransitionOnChange themes={['mono']}>
-                    {children}
+                    <main className='w-screen h-screen bg-primary'>
+                        {children}
+                    </main>
                 </ThemeProvider>
             </body>
         </html>
