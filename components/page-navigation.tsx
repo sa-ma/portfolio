@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const PageNavigation = () => {
     return (
-        <div className='flex items-center justify-between p-8'>
+        <div className='flex items-center justify-between p-8 mb-8'>
             <h1 className='text-4xl text-typography'>Samaila Bala</h1>
             <div className='flex items-center gap-2'>
                 <ThemeSwitcher />

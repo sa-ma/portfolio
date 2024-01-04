@@ -15,9 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang='en'>
             <body className={`${nunitoSans.variable} font-sans`}>
                 <ThemeProvider defaultTheme='dark' enableSystem disableTransitionOnChange themes={['mono']}>
-                    <main className='w-screen h-screen bg-primary'>
-                        {children}
-                    </main>
+                    <main className='w-screen min-h-screen bg-primary'>{children}</main>
                 </ThemeProvider>
             </body>
         </html>

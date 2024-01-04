@@ -19,7 +19,7 @@ const Navigation = () => {
             </div>
 
             <div className='flex items-center gap-2'>
-                <Link className='text-typography text-lg' href='/about'>
+                <Link className='text-typography text-lg' href='/info'>
                     Info
                 </Link>
                 <ThemeSwitcher />
