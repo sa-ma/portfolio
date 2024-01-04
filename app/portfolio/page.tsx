@@ -1,15 +1,15 @@
 import PageNavigation from '@/components/page-navigation';
 import DataList from '@/components/data-list';
 import React from 'react';
-import { articles } from '@/lib/site-data';
+import { portfolio } from '@/lib/site-data';
 
-const Writings = () => {
+const Portfolio = () => {
     return (
         <div>
             <PageNavigation />
-            <DataList data={articles} />
+            <DataList type='portfolio' data={portfolio} />
         </div>
     );
 };
 
-export default Writings;
+export default Portfolio;

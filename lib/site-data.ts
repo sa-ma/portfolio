@@ -1,4 +1,4 @@
-const projectsAndWriting = [
+const articles = [
     {
         title: 'Build a Blockchain Explorer with Solana',
         url: 'https://blog.openreplay.com/build-a-blockchain-explorer-with-solana-and-next-js/',
@@ -67,4 +67,32 @@ const projectsAndWriting = [
     },
 ];
 
-export default projectsAndWriting;
+const portfolio = [
+    {
+        title: 'Gandalf',
+        url: 'https://alpha.gandalf.page',
+        type: 'portfolio',
+    },
+    {
+        title: 'Hogsmeade',
+        url: 'https://hogsmeade.christmas',
+        type: 'portfolio',
+    },
+    {
+        title: 'Explorer by Gandalf',
+        url: 'https://explorer.gandalf.social',
+        type: 'portfolio',
+    },
+    {
+        title: 'Gandalf Social',
+        url: 'https://gandalf.social',
+        type: 'portfolio',
+    },
+    {
+        title: 'Sendcash',
+        url: 'https://sendcash.africa',
+        type: 'portfolio',
+    },
+];
+
+export { articles, portfolio };

@@ -13,7 +13,7 @@ const Navigation = () => {
                 <Link className='text-typography text-lg' href='/writing'>
                     Writings
                 </Link>
-                <Link className='text-typography text-lg' href='/project'>
+                <Link className='text-typography text-lg' href='/portfolio'>
                     Work
                 </Link>
             </div>
