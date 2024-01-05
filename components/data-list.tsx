@@ -13,7 +13,7 @@ type Props = {
 
 const DataList = ({ data, type }: Props) => {
     return (
-        <div className='w-full px-8 py-11'>
+        <div className='w-full px-4 lg:px-8 py-11'>
             {data.map((item) => (
                 <Link
                     key={item.title}
