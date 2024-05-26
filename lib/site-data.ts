@@ -69,23 +69,18 @@ const articles = [
 
 const portfolio = [
     {
-        title: 'Gandalf',
-        url: 'https://alpha.gandalf.page',
+        title: 'Gandalf Network',
+        url: 'https://gandalf.network',
         type: 'portfolio',
     },
     {
-        title: 'Hogsmeade',
-        url: 'https://hogsmeade.christmas',
+        title: 'Connect',
+        url: 'https://auth.gandalf.network',
         type: 'portfolio',
     },
     {
-        title: 'Explorer by Gandalf',
-        url: 'https://explorer.gandalf.social',
-        type: 'portfolio',
-    },
-    {
-        title: 'Gandalf Social',
-        url: 'https://gandalf.social',
+        title: 'Sendcash',
+        url: 'https://sendcash.africa',
         type: 'portfolio',
     },
     {
