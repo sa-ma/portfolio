@@ -83,11 +83,6 @@ const portfolio = [
         url: 'https://sendcash.africa',
         type: 'portfolio',
     },
-    {
-        title: 'Sendcash',
-        url: 'https://sendcash.africa',
-        type: 'portfolio',
-    },
 ];
 
 export { articles, portfolio };
