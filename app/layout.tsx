@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Nunito_Sans } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
+import { Analytics } from '@vercel/analytics/react';
 
 const nunitoSans = Nunito_Sans({ subsets: ['latin'], variable: '--font-nunito-sans' });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <ThemeProvider defaultTheme='dark' enableSystem disableTransitionOnChange themes={['mono']}>
                     <main className='w-screen min-h-screen bg-primary'>{children}</main>
                 </ThemeProvider>
+                <Analytics />
             </body>
         </html>
     );

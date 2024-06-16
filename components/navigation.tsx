@@ -14,7 +14,7 @@ const Navigation = () => {
                     Work
                 </Link>
                 <Link className='text-typography text-lg' href='/writing'>
-                    Writings
+                    Writing
                 </Link>
                 <Link
                     className='text-typography text-lg'
