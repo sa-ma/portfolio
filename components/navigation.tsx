@@ -10,11 +10,19 @@ const Navigation = () => {
             </Link>
 
             <div className='flex flex-col md:flex-row items-start md:items-center gap-0 md:gap-2'>
+                <Link className='text-typography text-lg' href='/portfolio'>
+                    Work
+                </Link>
                 <Link className='text-typography text-lg' href='/writing'>
                     Writings
                 </Link>
-                <Link className='text-typography text-lg' href='/portfolio'>
-                    Work
+                <Link
+                    className='text-typography text-lg'
+                    href='https://bit.ly/sama-cv'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                >
+                    Resume
                 </Link>
             </div>
 
