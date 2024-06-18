@@ -4,12 +4,12 @@ import ThemeSwitcher from './theme-switcher';
 
 const Navigation = () => {
     return (
-        <div className='absolute bottom-0 left-0 p-4 w-full flex flex-col md:flex-row justify-between items-start md:items-center'>
+        <div className='absolute bottom-0 left-0 p-4 w-full flex flex-col justify-between items-start'>
             <Link href='mailto:samailabalap@gmail.com' className='text-typography text-lg'>
                 samailabalap@gmail.com
             </Link>
 
-            <div className='flex flex-col md:flex-row items-start md:items-center gap-0 md:gap-2'>
+            <div className='flex flex-col items-start gap-0'>
                 <Link className='text-typography text-lg' href='/portfolio'>
                     Work
                 </Link>
