@@ -74,6 +74,16 @@ const portfolio = [
         type: 'portfolio',
     },
     {
+        title: 'Heimdall',
+        url: 'https://heimdall.chat',
+        type: 'portfolio',
+    },
+    {
+        title: 'Portfolio',
+        url: 'https://github.com/sa-ma/portfolio',
+        type: 'portfolio',
+    },
+    {
         title: 'Connect',
         url: 'https://auth.gandalf.network',
         type: 'portfolio',
