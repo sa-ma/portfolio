@@ -70,24 +70,24 @@ const articles = [
 const portfolio = [
     {
         title: 'Gandalf Network',
-        url: 'https://gandalf.network',
+        url: 'https://apps.apple.com/fi/app/gandalf-control-your-data/id6478115871',
         type: 'portfolio',
     },
-    {
-        title: 'Heimdall',
-        url: 'https://heimdall.chat',
-        type: 'portfolio',
-    },
+    // {
+    //     title: 'Heimdall',
+    //     url: 'https://heimdall.chat',
+    //     type: 'portfolio',
+    // },
     {
         title: 'Portfolio',
         url: 'https://github.com/sa-ma/portfolio',
         type: 'portfolio',
     },
-    {
-        title: 'Connect',
-        url: 'https://auth.gandalf.network',
-        type: 'portfolio',
-    },
+    // {
+    //     title: 'Connect',
+    //     url: 'https://auth.gandalf.network',
+    //     type: 'portfolio',
+    // },
     {
         title: 'Sendcash',
         url: 'https://sendcash.africa',
