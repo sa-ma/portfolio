@@ -1,8 +1,19 @@
 # Portfolio
 
-This repository contains my portfolio that can be viewed [here](https://www.samailabala.com/)
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Deployment**: [Vercel](https://vercel.com)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
 
-## Technology
+## Running Locally
 
-- Next.js
-- Tailwind
+This application requires Node.js v18.17+.
+
+```bash
+git clone https://github.com/sa-ma/portfolio.git
+cd portfolio
+bun install
+bun dev
+```
+
+Credit to [Leerob](https://leerob.io/)
