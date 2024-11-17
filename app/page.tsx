@@ -59,15 +59,15 @@ export default function Page() {
       <div className="my-8 flex w-full flex-col space-y-4">
         <BlogLink
           name="Implementing Authentication In Remix Applications With Supabase"
-          slug="remix-supabase"
+          link="https://blog.openreplay.com/implementing-authentication-in-remix-applications-with-supabase/"
         />
         <BlogLink
           name="3 React Component Design Patterns You Should Know About"
-          slug="react-component-design-patterns"
+          link="https://blog.openreplay.com/3-react-component-design-patterns-you-should-know-about"
         />
         <BlogLink
           name="Keeping Your TypeScript Code DRY With Generics"
-          slug="typescript-generics"
+          link="https://blog.openreplay.com/keeping-your-typescript-code-dry-with-generics"
         />
       </div>
 

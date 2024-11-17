@@ -1,10 +1,12 @@
 import ArrowIcon from './icons/arrow-icon';
 
-function BlogLink({ slug, name }) {
+function BlogLink({ link, name }) {
   return (
     <div className="group">
       <a
-        href={`/blog/${slug}`}
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex w-full items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800"
       >
         <div className="flex flex-col">
