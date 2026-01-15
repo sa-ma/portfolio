@@ -16,7 +16,13 @@ export default function Error({
 
   return (
     <div>
-      <p>Oh no, something went wrong... maybe refresh?</p>
+      <p className="mb-4">Oh no, something went wrong...</p>
+      <button
+        onClick={reset}
+        className="px-4 py-2 text-sm bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded-md transition-colors"
+      >
+        Try again
+      </button>
     </div>
   );
 }

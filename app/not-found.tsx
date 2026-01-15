@@ -5,8 +5,10 @@ export default function NotFound() {
         Oh no! This page doesn't exist.
       </h1>
       <p>
-        If you expected to see something here, let me know
-        (samailabalap@gmail.com).
+        If you expected to see something here,{' '}
+        <a href="mailto:samailabalap@gmail.com" className="underline hover:text-neutral-600 dark:hover:text-neutral-300">
+          let me know
+        </a>.
       </p>
     </section>
   );
