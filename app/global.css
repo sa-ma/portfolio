@@ -41,6 +41,64 @@ input[type='email'] {
   text-wrap: balance;
 }
 
+/* Animated dashed border - marching ants clockwise */
+.link-animated {
+  position: relative;
+  text-decoration: none;
+  padding: 2px 4px;
+  margin: -2px -4px;
+  transition: color 0.2s;
+}
+
+.link-animated::before,
+.link-animated::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.link-animated:hover::before,
+.link-animated:hover::after {
+  opacity: 1;
+}
+
+/* Horizontal borders (top & bottom) */
+.link-animated::before {
+  background:
+    repeating-linear-gradient(90deg, currentColor 0 4px, transparent 4px 8px) 0 0 / 8px 1px repeat-x,
+    repeating-linear-gradient(90deg, currentColor 0 4px, transparent 4px 8px) 0 100% / 8px 1px repeat-x;
+}
+
+.link-animated:hover::before {
+  animation: march-h 1s linear infinite;
+}
+
+/* Vertical borders (left & right) */
+.link-animated::after {
+  background:
+    repeating-linear-gradient(0deg, currentColor 0 4px, transparent 4px 8px) 0 0 / 1px 8px repeat-y,
+    repeating-linear-gradient(0deg, currentColor 0 4px, transparent 4px 8px) 100% 0 / 1px 8px repeat-y;
+}
+
+.link-animated:hover::after {
+  animation: march-v 1s linear infinite;
+}
+
+@keyframes march-h {
+  to {
+    background-position: 8px 0, -8px 100%;
+  }
+}
+
+@keyframes march-v {
+  to {
+    background-position: 0 -8px, 100% 8px;
+  }
+}
+
 /* Focus visible styles for keyboard accessibility */
 a:focus-visible {
   @apply outline-none ring-2 ring-offset-2 ring-blue-500 dark:ring-offset-[#111010];

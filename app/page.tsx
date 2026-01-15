@@ -7,7 +7,7 @@ export default function Page() {
         </h1>
         <a
           href="/resume.pdf"
-          className="text-sm text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
+          className="text-sm text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 link-animated"
         >
           Resume
         </a>
@@ -26,7 +26,7 @@ export default function Page() {
             href="https://rulebase.co/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:underline"
+            className="font-medium link-animated"
           >
             Rulebase
           </a>
@@ -39,7 +39,7 @@ export default function Page() {
             href="https://gandalf.network/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:underline"
+            className="font-medium link-animated"
           >
             Gandalf
           </a>
@@ -58,7 +58,7 @@ export default function Page() {
             href="https://venco.africa/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:underline"
+            className="font-medium link-animated"
           >
             Venco
           </a>
@@ -78,7 +78,7 @@ export default function Page() {
             href="https://www.yara.cash/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:underline"
+            className="font-medium link-animated"
           >
             Yara
           </a>
@@ -91,7 +91,7 @@ export default function Page() {
             href="https://fablepod.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:underline"
+            className="font-medium link-animated"
           >
             Fable
           </a>
@@ -111,7 +111,7 @@ export default function Page() {
             href="https://blog.openreplay.com/implementing-authentication-in-remix-applications-with-supabase/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="link-animated"
           >
             Implementing Authentication In Remix Applications With Supabase
           </a>
@@ -121,7 +121,7 @@ export default function Page() {
             href="https://blog.openreplay.com/3-react-component-design-patterns-you-should-know-about"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="link-animated"
           >
             3 React Component Design Patterns You Should Know About
           </a>
@@ -131,7 +131,7 @@ export default function Page() {
             href="https://blog.openreplay.com/keeping-your-typescript-code-dry-with-generics"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="link-animated"
           >
             Keeping Your TypeScript Code DRY With Generics
           </a>
@@ -146,7 +146,7 @@ export default function Page() {
         <li>
           <a
             href="mailto:samailabalap@gmail.com"
-            className="hover:underline"
+            className="link-animated"
           >
             Email
           </a>
@@ -156,7 +156,7 @@ export default function Page() {
             href="https://linkedin.com/in/samabalap"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="link-animated"
           >
             LinkedIn
           </a>
@@ -166,7 +166,7 @@ export default function Page() {
             href="https://github.com/samabalap"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="link-animated"
           >
             GitHub
           </a>
