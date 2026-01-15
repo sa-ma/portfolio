@@ -1,108 +1,174 @@
-import BlogLink from './components/blog-link';
-import ArrowIcon from './components/icons/arrow-icon';
-
 export default function Page() {
   return (
     <section>
-      <h1 className="font-medium text-2xl mb-8 tracking-tighter">
-        hi, I'm Samaila 👋
-      </h1>
-      <p className="prose prose-neutral dark:prose-invert">
-        I’m a skilled Frontend Developer, React Native Developer, and Technical
-        writer with extensive experience in creating responsive and user-centric
-        web applications. I currently work at{' '}
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="font-medium text-2xl tracking-tighter">
+          Samaila Bala
+        </h1>
         <a
-          href="https://gandalf.network"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/resume.pdf"
+          className="text-sm text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
         >
-          Gandalf
-        </a>{' '}
-        where I am responsible for the frontend and mobile development of
-        innovative products, focusing on empowering users and enhancing their
-        experiences.
-      </p>
-
-      <p className="prose prose-neutral dark:prose-invert mt-4">
-        Over the past few years, I have had the opportunity to write technical
-        articles for{' '}
-        <a
-          href="https://blog.openreplay.com/authors/samaila-bala/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Open Replay
-        </a>{' '}
-        and{' '}
-        <a
-          href="https://blog.logrocket.com/author/samailabala/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LogRocket
+          Resume
         </a>
-        , two well-respected platforms in the tech community. My work has
-        involved creating in-depth, informative content that covers a wide range
-        of topics related to frontend development, best practices, and emerging
-        technologies.
-      </p>
-
-      <p className="prose prose-neutral dark:prose-invert mt-4">
-        These articles have not only helped readers understand complex concepts
-        more easily but have also allowed me to share my expertise and
-        contribute to the broader developer community. Writing for these
-        platforms has honed my ability to communicate technical information
-        clearly and effectively, making complex subjects accessible to a diverse
-        audience of readers.
-      </p>
-
-      <div className="my-8 flex w-full flex-col space-y-4">
-        <BlogLink
-          name="Implementing Authentication In Remix Applications With Supabase"
-          link="https://blog.openreplay.com/implementing-authentication-in-remix-applications-with-supabase/"
-        />
-        <BlogLink
-          name="3 React Component Design Patterns You Should Know About"
-          link="https://blog.openreplay.com/3-react-component-design-patterns-you-should-know-about"
-        />
-        <BlogLink
-          name="Keeping Your TypeScript Code DRY With Generics"
-          link="https://blog.openreplay.com/keeping-your-typescript-code-dry-with-generics"
-        />
       </div>
+      <p className="text-neutral-600 dark:text-neutral-400 mb-8">
+        I ship products for humans: web, mobile, and everything in between.
+      </p>
 
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+      <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
+
+      {/* Career */}
+      <h2 className="font-medium text-lg mb-4 tracking-tighter">Career</h2>
+      <ul className="space-y-2 mb-8">
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
+            href="https://rulebase.co/"
             target="_blank"
-            href="https://linkedin.com/in/samabalap"
+            rel="noopener noreferrer"
+            className="font-medium hover:underline"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">linkedIn</p>
+            Rulebase
+          </a>
+          <span className="text-neutral-600 dark:text-neutral-400">
+            {' '}— The AI agent built for back-office operations at Financial Services
+          </span>
+        </li>
+        <li>
+          <a
+            href="https://gandalf.network/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium hover:underline"
+          >
+            Gandalf
+          </a>
+          <span className="text-neutral-600 dark:text-neutral-400">
+            {' '}— We build secure, custom integrations that pull user data from sources without public APIs directly into your application.
+          </span>
+        </li>
+        <li>
+          <span className="font-medium">Helicarrier</span>
+          <span className="text-neutral-600 dark:text-neutral-400">
+            {' '}— Crypto infrastructure for Africa
+          </span>
+        </li>
+        <li>
+          <a
+            href="https://venco.africa/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium hover:underline"
+          >
+            Venco
+          </a>
+          <span className="text-neutral-600 dark:text-neutral-400">
+            {' '}— Manage your Residential Community Easily and Efficiently
+          </span>
+        </li>
+      </ul>
+
+      <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
+
+      {/* Other Projects */}
+      <h2 className="font-medium text-lg mb-4 tracking-tighter">Other projects</h2>
+      <ul className="space-y-2 mb-8">
+        <li>
+          <a
+            href="https://www.yara.cash/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium hover:underline"
+          >
+            Yara
+          </a>
+          <span className="text-neutral-600 dark:text-neutral-400">
+            {' '}— Send money to Nigeria and across Africa
+          </span>
+        </li>
+        <li>
+          <a
+            href="https://fablepod.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium hover:underline"
+          >
+            Fable
+          </a>
+          <span className="text-neutral-600 dark:text-neutral-400">
+            {' '}— Documents to podcasts
+          </span>
+        </li>
+      </ul>
+
+      <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
+
+      {/* Writing */}
+      <h2 className="font-medium text-lg mb-4 tracking-tighter">Writing</h2>
+      <ul className="space-y-2 mb-8">
+        <li>
+          <a
+            href="https://blog.openreplay.com/implementing-authentication-in-remix-applications-with-supabase/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Implementing Authentication In Remix Applications With Supabase
           </a>
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
+            href="https://blog.openreplay.com/3-react-component-design-patterns-you-should-know-about"
             target="_blank"
-            href="https://github.com/samabalap"
+            rel="noopener noreferrer"
+            className="hover:underline"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">gitHub</p>
+            3 React Component Design Patterns You Should Know About
           </a>
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
+            href="https://blog.openreplay.com/keeping-your-typescript-code-dry-with-generics"
             target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Keeping Your TypeScript Code DRY With Generics
+          </a>
+        </li>
+      </ul>
+
+      <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
+
+      {/* Contact */}
+      <h2 className="font-medium text-lg mb-4 tracking-tighter">Contact</h2>
+      <ul className="flex flex-wrap gap-4">
+        <li>
+          <a
             href="mailto:samailabalap@gmail.com"
+            className="hover:underline"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">email</p>
+            Email
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://linkedin.com/in/samabalap"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/samabalap"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            GitHub
           </a>
         </li>
       </ul>

@@ -1,35 +1,4 @@
-import postgres from 'postgres';
-
-export const sql = postgres(process.env.POSTGRES_URL, {
-  ssl: 'allow',
-});
-
 const nextConfig = {
-  experimental: {
-    ppr: true,
-  },
-  logging: {
-    fetches: {
-      fullUrl: true,
-    },
-  },
-  transpilePackages: ['next-mdx-remote'],
-  async redirects() {
-    if (!process.env.POSTGRES_URL) {
-      return [];
-    }
-
-    let redirects = await sql`
-      SELECT source, destination, permanent
-      FROM redirects;
-    `;
-
-    return redirects.map(({ source, destination, permanent }) => ({
-      source,
-      destination,
-      permanent: !!permanent,
-    }));
-  },
   headers() {
     return [
       {
@@ -41,14 +10,14 @@ const nextConfig = {
 };
 
 const ContentSecurityPolicy = `
-    default-src 'self' vercel.live;
-    script-src 'self' 'unsafe-eval' 'unsafe-inline' cdn.vercel-insights.com vercel.live va.vercel-scripts.com;
+    default-src 'self';
+    script-src 'self' 'unsafe-eval' 'unsafe-inline';
     style-src 'self' 'unsafe-inline';
     img-src * blob: data:;
     media-src 'none';
     connect-src *;
     font-src 'self' data:;
-    frame-src 'self' *.codesandbox.io vercel.live;
+    frame-src 'self';
 `;
 
 const securityHeaders = [
