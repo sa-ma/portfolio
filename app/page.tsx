@@ -35,20 +35,20 @@ export default function Page() {
           </span>
         </li>
         <li>
-          <a
-            href="https://gandalf.network/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium link-animated"
-          >
-            Gandalf
-          </a>
+          <span className="font-medium">Gandalf</span>
           <span className="text-neutral-600 dark:text-neutral-400">
             {' '}— We build secure, custom integrations that pull user data from sources without public APIs directly into your application.
           </span>
         </li>
         <li>
-          <span className="font-medium">Helicarrier</span>
+          <a
+            href="https://www.ycombinator.com/companies/helicarrier-prev-buycoins?"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium link-animated"
+          >
+            Hellicarrier
+          </a>
           <span className="text-neutral-600 dark:text-neutral-400">
             {' '}— Crypto infrastructure for Africa
           </span>
