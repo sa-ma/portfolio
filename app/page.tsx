@@ -75,12 +75,12 @@ export default function Page() {
       <ul className="space-y-2 mb-8">
         <li>
           <a
-            href="https://gh-pr-reviewer.vercel.app/"
+            href="https://pri-ism.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium link-animated"
           >
-            GH PR Reviewer
+            PRISM
           </a>
           <span className="text-neutral-600 dark:text-neutral-400">
             {' '}— Know if a PR is safe to merge in seconds.
