@@ -1,0 +1,23 @@
+app/page.tsx
+  0d5843b9e7dd5466 78,83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "850143592171afce90380f481f05f8e10ec3cce0",
+  "prompts": {
+    "0d5843b9e7dd5466": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cf733-c569-7750-b89d-d6110ebd0655",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Samaila Bala <samailabalap@gmail.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}
