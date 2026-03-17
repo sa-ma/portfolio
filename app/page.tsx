@@ -202,7 +202,7 @@ export default function Page() {
         </li>
         <li>
           <a
-            href="https://github.com/samabalap"
+            href="https://github.com/sa-ma"
             target="_blank"
             rel="noopener noreferrer"
             className="link-animated"
