@@ -13,7 +13,7 @@ export default function Page() {
         </a>
       </div>
       <p className="text-neutral-600 dark:text-neutral-400 mb-8">
-        I ship products for humans: web, mobile, and everything in between.
+        I ship products for humans and agents.
       </p>
 
       <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
