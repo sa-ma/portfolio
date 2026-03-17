@@ -75,6 +75,19 @@ export default function Page() {
       <ul className="space-y-2 mb-8">
         <li>
           <a
+            href="https://www.npmjs.com/package/@sa-ma/gh-stats"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium link-animated"
+          >
+            gh-stats
+          </a>
+          <span className="text-neutral-600 dark:text-neutral-400">
+            {' '}— Weekly GitHub activity stats in your terminal.
+          </span>
+        </li>
+        <li>
+          <a
             href="https://code-atlas-rho.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
