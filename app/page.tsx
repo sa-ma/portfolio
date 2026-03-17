@@ -71,7 +71,7 @@ export default function Page() {
       <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
 
       {/* Other Projects */}
-      <h2 className="font-medium text-lg mb-4 tracking-tighter">Other projects</h2>
+      <h2 className="font-medium text-lg mb-4 tracking-tighter">Recent projects</h2>
       <ul className="space-y-2 mb-8">
         <li>
           <a
