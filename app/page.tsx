@@ -75,6 +75,19 @@ export default function Page() {
       <ul className="space-y-2 mb-8">
         <li>
           <a
+            href="https://code-atlas-rho.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium link-animated"
+          >
+            CodeAtlas
+          </a>
+          <span className="text-neutral-600 dark:text-neutral-400">
+            {' '}— Turn a repository architecture into a living map.
+          </span>
+        </li>
+        <li>
+          <a
             href="https://pri-ism.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
