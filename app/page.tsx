@@ -88,7 +88,7 @@ export default function Page() {
         </li>
         <li>
           <a
-            href="https://code-atlas-rho.vercel.app/"
+            href="https://codeatlas.gidalabs.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium link-animated"
