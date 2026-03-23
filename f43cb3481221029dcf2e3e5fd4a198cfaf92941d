@@ -1,0 +1,36 @@
+app/page.tsx
+  b85709fdda216619 91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "f43cb3481221029dcf2e3e5fd4a198cfaf92941d",
+  "prompts": {
+    "7d14443bbac005fb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cfe60-0545-73a1-82e0-0222fd2e2588",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Samaila Bala <samailabalap@gmail.com>",
+      "messages": [],
+      "total_additions": 92,
+      "total_deletions": 172,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    },
+    "b85709fdda216619": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d1a26-05d2-77b0-9ff9-5db26cc7fcea",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Samaila Bala <samailabalap@gmail.com>",
+      "messages": [],
+      "total_additions": 170,
+      "total_deletions": 71,
+      "accepted_lines": 170,
+      "overriden_lines": 0
+    }
+  }
+}
